@@ -1,0 +1,49 @@
+@import "tailwindcss";
+.color-body{
+    background-color: #f8f8f8;
+}
+
+.almarai-light {
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.almarai-regular {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.almarai-bold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+.fustat-light {
+  font-family: "Fustat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fustat-regular {
+  font-family: "Fustat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fustat-bold {
+  font-family: "Fustat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
