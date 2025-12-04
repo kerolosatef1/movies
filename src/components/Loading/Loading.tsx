@@ -23,7 +23,7 @@ export default function Loading() {
         </motion.div>
 
         <div className="w-32 h-20 bg-gray-700 border-2 border-white mt-1 rounded-sm flex flex-col justify-center items-center">
-          <p className="text-white text-sm font-bold tracking-wider">SCENIT</p>
+          <p className="text-white text-sm font-bold tracking-wider">كلاكيت</p>
         </div>
 
       </div>

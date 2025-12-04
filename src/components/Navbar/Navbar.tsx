@@ -14,7 +14,7 @@ export default function Navbar({ search }: { search: (word: string) => void }) {
         <div className="flex justify-between h-16 items-center">
           <div className="ml-5">
             <h1 className="text-2xl text-blue-500 font-bold main-color cursor-pointer">
-              Scenit
+              كلاكيت
             </h1>
           </div>
 
