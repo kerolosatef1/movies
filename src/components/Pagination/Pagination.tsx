@@ -15,17 +15,17 @@ export default function Pagination({getPage ,pageCount}: { getPage: (page: numbe
   pageCount={pageCount}
   previousLabel="< السابق"
   renderOnZeroPageCount={null}
-  containerClassName="flex flex-wrap justify-center items-center gap-2  mt-5"
+  containerClassName="flex flex-wrap justify-center items-center gap-1  mt-5"
   pageClassName="rounded overflow-hidden"
-  pageLinkClassName="bg-gray-200 text-gray-700 px-2 py-1 sm:px-3 sm:py-1 block hover:bg-gray-300 cursor-pointer"
+  pageLinkClassName="bg-gray-200 text-gray-700 px-2 py-1 sm:px-1 sm:py-1 block hover:bg-gray-300 cursor-pointer"
   previousClassName="rounded overflow-hidden"
-  previousLinkClassName="bg-gray-200 text-gray-700 px-2 py-1 sm:px-3 sm:py-1 block hover:bg-gray-300 cursor-pointer"
+  previousLinkClassName="bg-gray-200 text-gray-700 px-1 py-1 sm:px-1 sm:py-1 block hover:bg-gray-300 cursor-pointer"
   nextClassName="rounded overflow-hidden"
-  nextLinkClassName="bg-gray-200 text-gray-700 px-2 py-1 sm:px-3 sm:py-1 block hover:bg-gray-300 cursor-pointer"
-  breakClassName="rounded overflow-hidden"
-  breakLinkClassName="px-2 py-1 sm:px-3 sm:py-1 mb-7 block"
+  nextLinkClassName="bg-gray-200 text-gray-700 px-2 py-1 sm:px-1 sm:py-0 block hover:bg-gray-300 cursor-pointer"
+  breakClassName="rounded  overflow-hidden"
+  breakLinkClassName="lg:px-2 py-1 sm:px-0 sm:py-1 mb-7 block"
   activeClassName="bg-red-600"
-  activeLinkClassName="bg-red-600 text-white px-2 py-1  sm:px-3 sm:py-1"
+  activeLinkClassName="bg-red-600 text-white px-3 py-1  sm:px-2 sm:py-3"
 />
   );
 }
